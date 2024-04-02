@@ -2,7 +2,7 @@ import Card from './components/Card';
 import insta from './img/insta.png';
 import bootstrap from './img/bootstrap.png';
 import net from './img/net.png';
-import fotonoite from './img/fotonoite.png';
+import hora from './img/hora.png';
 import faq from './img/faq.png';
 import iconstyle from './components/Icon.module.css';
 
@@ -24,15 +24,15 @@ function App() {
 
       <section className="Section">
         <div className="linha1">
+          <Card img={faq} title={"FAQ"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
+          <Card img={hora} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
+        </div>
+        <div className="linha2">
           <Card img={net} title="Clone da Netflix" description={descriptionNetflix} link={'https://infodoug.github.io/CloneNetflix/'}/>
           <Card img={insta} title="Clone do Instagram" description={descriptionInsta} link={'https://infodoug.github.io/instagram-projeto/'}/>
         </div>
-        <div className="linha2">
-          <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
-          <Card img={fotonoite} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
-        </div>
         <div className='linha3'>
-          <Card img={faq} title={"FAQ"} description={'a'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
+          <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
         </div>
       </section>
 
