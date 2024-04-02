@@ -13,6 +13,7 @@ function App() {
   let descriptionNetflix = 'Clone de interface da Netflix criado para o desafio de projeto do bootcamp "HTML Web Developer" da DIO.'
   let descriptionInsta = 'Desafio de Projeto "Recriando a Página Inicial do Instagram" do bootcamp de HTML Web Developer da DIO.'
   let descriptionBootstrap = 'Aprendendo a usar bootstrap.'
+  let descriptionHoradodia = 'Página que atualiza imagem de acordo com horário'
 
   return (
     <>
@@ -28,7 +29,7 @@ function App() {
         </div>
         <div className="linha2">
           <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
-          <Card img={fotonoite} title="Hora do dia" link={'https://infodoug.github.io/hora-do-dia/'}/>
+          <Card img={fotonoite} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
         </div>
         <div className='linha3'>
           <Card img={faq} title={"FAQ"} description={'a'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
