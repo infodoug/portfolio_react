@@ -1,0 +1,57 @@
+.cardContainer {
+    margin: 50px;
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardContainer:hover {
+    cursor: pointer;
+    background-color: rgb(19, 37, 37);
+    border-radius: 10px;
+}
+
+.image {
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.image:hover {
+    opacity: 0;
+    transition: 300ms linear;
+}
+
+.text {
+    height: 100%;
+    position: relative;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    height: 33%;
+    margin: 0;
+}
+
+.description {
+    height: 33%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description p {
+    width: 80%;
+}

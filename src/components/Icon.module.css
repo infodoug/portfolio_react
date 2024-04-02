@@ -1,0 +1,34 @@
+.footerContainer {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconsContainer {
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsContainer a {
+    height: 50px;
+    width: 50px;
+}
+
+.iconsContainer:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
+
+.extraContainer {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
