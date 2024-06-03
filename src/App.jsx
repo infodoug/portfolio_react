@@ -4,6 +4,7 @@ import bootstrap from './img/bootstrap.png';
 import net from './img/net.png';
 import hora from './img/hora.png';
 import faq from './img/faq.png';
+import rating from './img/rating.png';
 import iconstyle from './components/Icon.module.css';
 
 import React from 'react'
@@ -24,15 +25,16 @@ function App() {
 
       <section className="Section">
         <div className="linha1">
-          <Card img={faq} title={"FAQ"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
-          <Card img={hora} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
+        <Card img={rating} title={"Componente de avaliação"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/interactive-rating-component-main/'}/>
+        <Card img={faq} title={"FAQ"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
         </div>
         <div className="linha2">
-          <Card img={net} title="Clone da Netflix" description={descriptionNetflix} link={'https://infodoug.github.io/CloneNetflix/'}/>
-          <Card img={insta} title="Clone do Instagram" description={descriptionInsta} link={'https://infodoug.github.io/instagram-projeto/'}/>
+        <Card img={hora} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
+        <Card img={net} title="Clone da Netflix" description={descriptionNetflix} link={'https://infodoug.github.io/CloneNetflix/'}/>
         </div>
         <div className='linha3'>
-          <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
+        <Card img={insta} title="Clone do Instagram" description={descriptionInsta} link={'https://infodoug.github.io/instagram-projeto/'}/>
+        <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
         </div>
       </section>
 
