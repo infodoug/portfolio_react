@@ -19,9 +19,17 @@ function App() {
   return (
     <>
       <header className="App-header">
-        <h1 id="portfolio">Portfólio</h1>
         <p id="nome">Douglas Rafael</p>
+        <nav class="navbar">
+          <a className='indice' href="#projetos">PROJETOS</a>
+          <a className='indice' href="#tecnologias">TECNOLOGIAS</a>
+          <a className='indice' href="#contatos">CONTATO</a>
+        </nav>
       </header>
+
+      <section id='projetos'>
+        
+      </section>
 
       <section className="Section">
         <div className="linha1">

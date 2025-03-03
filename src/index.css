@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  background-color: #ECECEC;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -39,11 +45,57 @@ code {
 }
 
 .App-header {
-  color: rgb(19, 37, 37);;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 2;
+
+  .navbar {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+   .indice {
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-inline: 40px;
+    color: #202020;
+    background-color: #ECECEC;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #D4FFF0;
+    }
+  } 
+}
+
+#nome {
+  background-color: #202020;
+  color: #ECECEC;
+  width: 285px;
+  height: inherit;
+  border-bottom-right-radius: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
 }
 
 #root {
   padding: 0;
+  margin: 0;
+}
+
+#projetos {
+  height: 600px;
 }
 
 @media screen and (max-width: 1020px) {
