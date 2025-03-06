@@ -50,6 +50,7 @@ code {
   position: fixed;
   display: flex;
   z-index: 2;
+  background-color: #FCFCFC;
 
   .navbar {
     height: inherit;
@@ -67,7 +68,7 @@ code {
     border-bottom-left-radius: 40px;
     padding-inline: 40px;
     color: #202020;
-    background-color: #ECECEC;
+    background-color: #FCFCFC;
 
     &:hover {
       cursor: pointer;
@@ -89,13 +90,19 @@ code {
   font-size: large;
 }
 
+.headerspace {
+  height: 60px;
+}
+
 #root {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 #projetos {
   height: 600px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1020px) {

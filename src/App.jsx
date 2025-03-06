@@ -6,9 +6,12 @@ import hora from './img/hora.png';
 import faq from './img/faq.png';
 import rating from './img/rating.png';
 import iconstyle from './components/Icon.module.css';
+import './components/Projeto';
 
 import React from 'react'
 import './App.css'
+import { Projeto, CintBackground } from './components/Projeto';
+
 
 function App() {
   let descriptionNetflix = 'Clone de interface da Netflix criado para o desafio de projeto do bootcamp "HTML Web Developer" da DIO.'
@@ -20,15 +23,16 @@ function App() {
     <>
       <header className="App-header">
         <p id="nome">Douglas Rafael</p>
-        <nav class="navbar">
+        <nav className="navbar">
           <a className='indice' href="#projetos">PROJETOS</a>
           <a className='indice' href="#tecnologias">TECNOLOGIAS</a>
           <a className='indice' href="#contatos">CONTATO</a>
         </nav>
       </header>
 
+      <div className="headerspace"></div>
       <section id='projetos'>
-        
+        <Projeto backgroundComponent={<CintBackground/>}/>
       </section>
 
       <section className="Section">
