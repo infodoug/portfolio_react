@@ -1,4 +1,6 @@
 import styles from "./Projeto.module.css";
+import cintTitle from "../img/cint-title.png";
+import cintScreen1 from "../img/cint-screen-1.png";
 
 function Projeto({backgroundComponent, descriptionComponent}) {
     return (
@@ -15,7 +17,13 @@ function Projeto({backgroundComponent, descriptionComponent}) {
 function CintBackground() {
     return (
         <div className={styles.cintBackground}>
-            aaa
+            <div className={styles.cintTitle}>
+                <img src={cintTitle} alt="Falha ao carregar imagem" />
+            </div>
+
+            <div className={styles.cintScreens}>
+                <img src={cintScreen1} alt="Falha ao carregar imagem" />
+            </div>
         </div>
     )
 }
