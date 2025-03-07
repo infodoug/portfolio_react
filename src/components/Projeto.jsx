@@ -14,7 +14,7 @@ function Projeto({backgroundComponent}) {
 }
 
 
-function CintBackground({descriptionContainer}) {
+function CintBackground({descriptionContainer, descriptionText}) {
     return (
         <div className={styles.cintBackground}>
             <div className={styles.cintTitle}>
@@ -28,7 +28,9 @@ function CintBackground({descriptionContainer}) {
             </div>
 
             <div className={styles.descriptionContainer}>
-                <div className={styles.descriptionComponent}></div>
+                <div className={styles.descriptionComponent}>
+                    <p>{descriptionText}</p>
+                </div>
             </div>
         </div>
     )

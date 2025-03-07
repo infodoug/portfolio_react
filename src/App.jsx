@@ -18,6 +18,7 @@ function App() {
   let descriptionInsta = 'Desafio de Projeto "Recriando a Página Inicial do Instagram" do bootcamp de HTML Web Developer da DIO.'
   let descriptionBootstrap = 'Aprendendo a usar bootstrap.'
   let descriptionHoradodia = 'Página que atualiza imagem de acordo com horário'
+  let cintDescription = 'Um aplicativo mobile que conecta ONGs a doadores, planejado e desenvolvido numa equipe de 6 pessoas'
 
   return (
     <>
@@ -32,7 +33,7 @@ function App() {
 
       <div className="headerspace"></div>
       <section id='projetos'>
-        <Projeto backgroundComponent={<CintBackground/>}/>
+        <Projeto backgroundComponent={<CintBackground descriptionText={cintDescription}/>}/>
       </section>
 
       <section className="Section">
