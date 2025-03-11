@@ -10,10 +10,13 @@ import './components/Projeto';
 
 import React from 'react'
 import './App.css'
-import { Projeto, CintBackground } from './components/Projeto';
+import { Projeto, CintBackground, DivFerramentas} from './components/Projeto';
 
 
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   let descriptionNetflix = 'Clone de interface da Netflix criado para o desafio de projeto do bootcamp "HTML Web Developer" da DIO.'
   let descriptionInsta = 'Desafio de Projeto "Recriando a Página Inicial do Instagram" do bootcamp de HTML Web Developer da DIO.'
   let descriptionBootstrap = 'Aprendendo a usar bootstrap.'
@@ -25,7 +28,7 @@ function App() {
       <header className="App-header">
         <p id="nome">Douglas Rafael</p>
         <nav className="navbar">
-          <a className='indice' href="#projetos">PROJETOS</a>
+          <a className='indice' href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">PROJETOS</a>
           <a className='indice' href="#tecnologias">TECNOLOGIAS</a>
           <a className='indice' href="#contatos">CONTATO</a>
         </nav>

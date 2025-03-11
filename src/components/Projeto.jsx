@@ -28,12 +28,42 @@ function CintBackground({descriptionContainer, descriptionText}) {
             </div>
 
             <div className={styles.descriptionContainer}>
-                <div className={styles.descriptionComponent}>
-                    <p>{descriptionText}</p>
-                </div>
+
+                    <div className={styles.descriptionComponent}>
+                        <p>{descriptionText}</p>
+                        <div className={styles.containerFerramentas}>
+                                <DivFerramentas/>
+                                <div className={styles.tagsF}>
+                                    <TagFerramenta nome={"Dart"}/>
+                                    <TagFerramenta nome={"Flutter"}/>
+                                    <TagFerramenta nome={"Supabase"}/>
+                                </div>
+
+                        </div>
+                    </div>
+                
             </div>
+            
+            
         </div>
     )
 }
 
-export { Projeto, CintBackground };
+function DivFerramentas() {
+    return (
+        <div className={styles.divFerramentas}>
+            <p>Ferramentas utilizadas: </p>
+            
+        </div>
+    )
+}
+
+function TagFerramenta({nome}) {
+    return (
+        <div className={styles.tagFerramenta}>
+            <p>{nome}</p>
+        </div>
+    )
+}
+
+export { Projeto, CintBackground, DivFerramentas};
