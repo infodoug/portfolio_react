@@ -6,6 +6,10 @@
     p {
         align-self: self-end;
     }
+
+    ::selection {
+        background-color: #202020;
+    }
 }
 
 .containerTecs {
