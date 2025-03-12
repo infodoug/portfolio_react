@@ -1,0 +1,40 @@
+.divTecnologias {
+    display: grid;
+    height: inherit;
+    grid-template-rows: 10% 90%;
+
+    p {
+        align-self: self-end;
+    }
+}
+
+.containerTecs {
+    display: grid;
+    place-content: center;
+    width: 880px;
+    height: 438.43px;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 170px 170px;
+    row-gap: 35px;
+    column-gap: 70px;
+}
+
+.cardTecnologia {
+    display: grid;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 70% 30%;
+
+    img {
+        height: 100%;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    p {
+        align-self: center;
+    }
+}

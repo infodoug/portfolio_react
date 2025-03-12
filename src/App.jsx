@@ -11,6 +11,7 @@ import './components/Projeto';
 import React from 'react'
 import './App.css'
 import { Projeto, CintBackground, DivFerramentas} from './components/Projeto';
+import { DivTecnologias } from './components/Tecnologias';
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       <header className="App-header">
         <p id="nome">Douglas Rafael</p>
         <nav className="navbar">
-          <a className='indice' href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">PROJETOS</a>
+          <a className='indice' href="#" onClick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">PROJETOS</a>
           <a className='indice' href="#tecnologias">TECNOLOGIAS</a>
           <a className='indice' href="#contatos">CONTATO</a>
         </nav>
@@ -40,7 +41,7 @@ function App() {
       </section>
 
       <section id='tecnologias'>
-
+        <DivTecnologias/>
       </section>
 
 {/*       <section className="Section">
