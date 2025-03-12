@@ -39,7 +39,11 @@ function App() {
         <Projeto backgroundComponent={<CintBackground descriptionText={cintDescription}/>}/>
       </section>
 
-      <section className="Section">
+      <section id='tecnologias'>
+
+      </section>
+
+{/*       <section className="Section">
         <div className="linha1">
         <Card img={rating} title={"Componente de avaliação"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/interactive-rating-component-main/'}/>
         <Card img={faq} title={"FAQ"} description={'Desafio do Frontend Mentor'} link={'https://infodoug.github.io/Faq-frontend-mentor/'}/>
@@ -52,9 +56,9 @@ function App() {
         <Card img={insta} title="Clone do Instagram" description={descriptionInsta} link={'https://infodoug.github.io/instagram-projeto/'}/>
         <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
         </div>
-      </section>
+      </section> */}
 
-      <footer className='Footer'>
+      <footer className='Footer' id='contatos'>
         <div className={iconstyle.footerContainer}>
           <div className={iconstyle.extraContainer}>
             <a href='https://github.com/infodoug' target='_blank' rel='noopener noreferrer'>

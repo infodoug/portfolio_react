@@ -13,6 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-padding-top: 60px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -101,6 +105,11 @@ code {
 }
 
 #projetos {
+  height: 90vh;
+  width: 100%;
+}
+
+#tecnologias {
   height: 90vh;
   width: 100%;
 }
