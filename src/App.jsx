@@ -1,7 +1,4 @@
 import Card from './components/Card';
-import insta from './img/insta.png';
-import bootstrap from './img/bootstrap.png';
-import net from './img/net.png';
 import hora from './img/hora.png';
 import faq from './img/faq.png';
 import rating from './img/rating.png';
@@ -18,9 +15,6 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-  let descriptionNetflix = 'Clone de interface da Netflix criado para o desafio de projeto do bootcamp "HTML Web Developer" da DIO.'
-  let descriptionInsta = 'Desafio de Projeto "Recriando a Página Inicial do Instagram" do bootcamp de HTML Web Developer da DIO.'
-  let descriptionBootstrap = 'Aprendendo a usar bootstrap.'
   let descriptionHoradodia = 'Página que atualiza imagem de acordo com horário'
   let cintDescription = 'Um aplicativo mobile que conecta ONGs a doadores, planejado e desenvolvido numa equipe de 6 pessoas'
 
@@ -51,11 +45,6 @@ function App() {
         </div>
         <div className="linha2">
         <Card img={hora} title="Hora do dia" description={descriptionHoradodia} link={'https://infodoug.github.io/hora-do-dia/'}/>
-        <Card img={net} title="Clone da Netflix" description={descriptionNetflix} link={'https://infodoug.github.io/CloneNetflix/'}/>
-        </div>
-        <div className='linha3'>
-        <Card img={insta} title="Clone do Instagram" description={descriptionInsta} link={'https://infodoug.github.io/instagram-projeto/'}/>
-        <Card img={bootstrap} title="Prática de Bootstrap" description={descriptionBootstrap} link={'https://infodoug.github.io/bootstrap-aula/'}/>
         </div>
       </section> */}
 
