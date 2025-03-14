@@ -16,7 +16,7 @@ function App() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   let descriptionHoradodia = 'Página que atualiza imagem de acordo com horário'
-  let cintDescription = 'Um aplicativo mobile que conecta ONGs a doadores, planejado e desenvolvido numa equipe de 6 pessoas'
+  let cintDescription = 'Um aplicativo mobile que conecta ONGs a doadores, planejado e desenvolvido numa equipe de 6 pessoas. Nessa aplicação, é possível publicar itens disponíveis para doação, assim como encontrar perfis de ONGs cadastradas. Durante o processo eu fiquei responsável pelo Front-end e parte da integração dos dados com o Back-end.'
 
   return (
     <>
